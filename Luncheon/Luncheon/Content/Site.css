@@ -29,17 +29,32 @@ time, mark, audio, video {
 
     #header ul {
         position: absolute;
-        top: 6px;
-        right: 4px;
+        top: 7px;
+        right: 0px;
     }
 
         #header ul li {
             float: right;
             list-style: none;
-            margin-left: 4px;
-            margin-right: 4px;
+            padding-left: 16px;
+            padding-right: 16px;
             font-size: large;
         }
+
+            #header ul li a {
+                color: white;
+                padding-top: 7px;
+                padding-bottom: 8px;
+                padding-left:16px;
+                padding-right:16px;
+                text-decoration: none;
+            }
+
+                #header ul li a:hover {
+                    color: #2693FF;
+                    text-decoration: none;
+                    background-color: white;
+                }
 
 #content {
     margin: 20px auto;
@@ -52,8 +67,8 @@ time, mark, audio, video {
     }
 
         #content div p {
-            padding:8px 16px 8px 16px;
-            font-size:larger;
+            padding: 8px 16px 8px 16px;
+            font-size: larger;
         }
 
     #content h1, h2, h3, h4, h5 {
